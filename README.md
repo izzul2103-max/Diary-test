@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Izzul Islam | My Digital Diary</title>
+    <style>
+        /* Modern and Clean Styling */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #f4f7f6;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        /* Header Section */
+        header {
+            background: linear-gradient(135deg, #2c3e50, #18bc9c);
+            color: white;
+            padding: 60px 20px;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            letter-spacing: 1px;
+        }
+
+        header p {
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+
+        /* Main Container layout */
+        .container {
+            max-width: 900px;
+            margin: 30px auto;
+            padding: 0 20px;
+        }
+
+        /* Profile Card */
+        .profile-card {
+            background: white;
+            padding: 25px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+            margin-bottom: 40px;
+            border-left: 5px solid #18bc9c;
+        }
+
+        .profile-card h2 {
+            margin-bottom: 10px;
+            color: #2c3e50;
+        }
+
+        /* Diary Section */
+        .diary-section h2 {
+            color: #2c3e50;
+            margin-bottom: 20px;
+            border-bottom: 2px solid #e2e8f0;
+            padding-bottom: 10px;
+        }
+
+        /* Diary Post Item */
+        .diary-post {
+            background: white;
+            padding: 25px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+            margin-bottom: 25px;
+            transition: transform 0.2s ease;
+        }
+
+        .diary-post:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+
+        .post-date {
+            font-size: 0.85rem;
+            color: #7f8c8d;
+            font-weight: 600;
+            text-transform: uppercase;
+            margin-bottom: 5px;
+        }
+
+        .diary-post h3 {
+            color: #2c3e50;
+            margin-bottom: 12px;
+        }
+
+        .diary-post p {
+            color: #555;
+            margin-bottom: 15px;
+        }
+
+        /* Tag Styling */
+        .tag {
+            display: inline-block;
+            background: #e8f8f5;
+            color: #18bc9c;
+            padding: 3px 10px;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            font-weight: bold;
+        }
+
+        /* Footer Section */
+        footer {
+            background: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 60px;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Introduction -->
+    <header>
+        <h1>Izzul Islam's Journal</h1>
+        <p>Documenting my thoughts, lessons, and student life</p>
+    </header>
+
+    <div class="container">
+        
+        <!-- About Me Profile Section -->
+        <section class="profile-card">
+            <h2>Selamat Datang! 👋</h2>
+            <p>Hi, I am <strong>Izzul Islam</strong>. Welcome to my personal space on the web! I am currently a student navigating life, academics, and growth at the <strong>Universiti Malaysia Kelantan (UMK) Campus Jeli</strong>. I created this digital diary to keep track of my experiences and share a glimpse of campus life in Kelantan.</p>
+        </section>
+
+        <!-- Diary Entries Section -->
+        <section class="diary-section">
+            <h2>Latest Diary Entries</h2>
+
+            <!-- Entry 1 -->
+            <article class="diary-post">
+                <div class="post-date">May 18, 2026</div>
+                <h3>Life at UMK Campus Jeli</h3>
+                <p>Campus life here in Jeli has its own unique rhythm. Balancing lectures, lab reports, and assignments can get intense, but being surrounded by nature makes it peaceful. Today was all about organizing my study schedule and finally getting this personal website up and running on GitHub!</p>
+                <span class="tag">#CampusLife</span>
+                <span class="tag">#UMK</span>
+            </article>
+
+            <!-- Entry 2 (Placeholder example for your next post) -->
+            <article class="diary-post">
+                <div class="post-date">May 15, 2026</div>
+                <h3>Starting My Digital Coding Journey</h3>
+                <p>I decided to build a website to act as my online diary. Learning how to host files on GitHub Pages felt a bit intimidating at first as a beginner, but seeing the code actually go live on the internet is incredibly rewarding. Can't wait to add more memories here.</p>
+                <span class="tag">#WebDev</span>
+                <span class="tag">#NewBeginnings</span>
+            </article>
+
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Izzul Islam | Student at UMK Jeli. Built with HTML & CSS.</p>
+    </footer>
+
+</body>
+</html>
